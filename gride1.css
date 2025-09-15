@@ -1,0 +1,35 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: rgb(8, 17, 17);
+}
+
+.container{
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  height: 400px;
+  width: 400px;
+  background-color: aqua;
+
+
+  /* yha overlapping hogi just because of gap mention h so hm isko overcome krne ke liye gride_templet_row se px hta ke 1fr 1fr kr denge
+  1fr mtlb fraction */
+}
+.first{
+  background-color: rgb(21, 74, 121);
+}
+.Second{
+  background-color: rgb(255, 0, 238);
+}
+.third{
+  background-color: rgb(31, 158, 39);
+}
+.fourth{
+  background-color: rgb(142, 13, 13);
+}
